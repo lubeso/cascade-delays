@@ -8,7 +8,6 @@ makedocs(;
     authors="Luis Becerra Solis <lubeso@alum.mit.edu> and contributors",
     sitename="CascadeDelays.jl",
     format=Documenter.HTML(;
-        build="build/jl",
         canonical="https://lubeso.github.io/cascade-delays/jl",
         edit_link="main",
         assets=String[],
