@@ -25,7 +25,7 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Pkg
-          Pkg.develop(PackageSpec(path=pwd()))
+          Pkg.develop(PackageSpec(path=joinpath(pwd(), "jl")))
           Pkg.instantiate()
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-docdeploy@81a223ca17846ffd71c1fce6ff438ee03e3f4088
