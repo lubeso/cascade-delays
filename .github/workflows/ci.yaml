@@ -4,6 +4,8 @@ on:
     branches:
       - main
     tags: ['*']
+    paths:
+      - 'jl/**'
   pull_request:
 concurrency:
   # Skip intermediate builds: always.
