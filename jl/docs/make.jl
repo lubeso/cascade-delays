@@ -21,4 +21,5 @@ makedocs(;
 deploydocs(;
     repo="github.com/lubeso/cascade-delays",
     devbranch="main",
+    dirname="jl",
 )
