@@ -43,3 +43,5 @@ jobs:
           using CascadeDelays
           DocMeta.setdocmeta!(CascadeDelays, :DocTestSetup, :(using CascadeDelays); recursive=true)
           doctest(CascadeDelays)
+        env:
+          JULIA_DEBUG: Documenter
