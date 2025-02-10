@@ -31,7 +31,7 @@ jobs:
           Pkg.develop(PackageSpec(path=pwd()))
           Pkg.instantiate()
       - uses: julia-actions/julia-buildpkg@v1
-      - uses: julia-actions/julia-docdeploy@81a223ca17846ffd71c1fce6ff438ee03e3f4088
+      - uses: julia-actions/julia-docdeploy@be6434551abe4361726d9c39ba29c4cc88ab089b
         with:
           project: './jl'
         env:
